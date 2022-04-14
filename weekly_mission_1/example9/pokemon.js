@@ -7,7 +7,7 @@ class Pokemon{
       }
     
       sayMessage (msg) {
-        console.log(`Mi pokemon dice: ${this.name}] dice: ${msg}`)
+        console.log(`Mi pokemon dice: ${this.name} dice: ${msg}`)
       }
     
 }
