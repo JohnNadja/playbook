@@ -48,8 +48,8 @@ const repo = {
    const PullRequest = {
     title: "New Objects",
     author: "StrySky",
-    branchName: "Reordering Classes and Objects".
-    dateCreated = new Date(),
+    branchName: "Reordering Classes and Objects",
+    dateCreated : new Date(),
     status: "OPEN",
     repositoryNameAssociated: "LaunchX",
     getStatus(){
