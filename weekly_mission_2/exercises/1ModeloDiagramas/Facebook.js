@@ -1,7 +1,7 @@
 //diagrama de Facebook
 const user = {
     user: "John Lic.",
-    email: "John S",
+    email: "johnlic@email.com",
     dateOfBirth: "02.31.1999",
     friends: 299,
     posts: 42,
