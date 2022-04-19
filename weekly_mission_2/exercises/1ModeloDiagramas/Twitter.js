@@ -40,18 +40,18 @@ const user = {
    console.log(trending_topic.getGeneralInfo())
    console.log("//////////////////")
 
-   const hastag = {
+   const hashtag = {
     title: "#GameSells",
     popularity: "Medium",
     averageTweetPerDay: 1527,
-    getTitleAndPopularity(){
+    getTitleAndPopularity: function(){
         return `This hashtag: ${this.title} has ${this.popularity} popularity`
     },
-    getAverageUse(){
+    getAverageUse: function(){
         return `The average use per day is  ${this.averageTweetPerDay}`
     }
   }
 
-  console.log("Nombre del hastag: " + hastag.title)
-  console.log("Tiene una popularidad: " + hastag.popularity)
-  console.log(hastag.getTitleAndPopularity() + " and " + hastag.getAverageUse())
+  console.log("Nombre del hastag: " + hashtag.title)
+  console.log("Tiene una popularidad: " + hashtag.popularity)
+  console.log(hashtag.getTitleAndPopularity() + " and " + hashtag.getAverageUse())

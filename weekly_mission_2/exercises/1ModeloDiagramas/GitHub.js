@@ -52,10 +52,10 @@ const repo = {
     dateCreated : new Date(),
     status: "OPEN",
     repositoryNameAssociated: "LaunchX",
-    getStatus(){
+    getStatus: function(){
         return `This PR: ${this.title} is in the repo: ${this.repositoryNameAssociated} (status: ${this.status})`
     },
-    getTitleAndAuthor(){
+    getTitleAndAuthor: function(){
         return `The PR: ${this.title} was created by ${this.author}`
     }
   }

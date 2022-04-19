@@ -45,10 +45,10 @@ const user = {
     location: "Mexico",
     work: "Google",
     education: "Harvard",
-    getBioAndLocation(){
+    getBioAndLocation: function(){
         return `Their bio is: ${this.bio} and they live in ${this.location}`
     },
-    getWorkAndEducation(){
+    getWorkAndEducation: function(){
         return `They work at  ${this.work} and studied in ${this.education}`
     }
   }
