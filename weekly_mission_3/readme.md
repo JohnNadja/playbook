@@ -8,4 +8,4 @@ Proyectos desarrollados en la semana 3:
 |`spiderverse`|2|[Link al repo](https://github.com/JohnNadja/Test-Driven-Development)|
 |`twitter`|3, 4, 5|[Link al repo](https://github.com/JohnNadja/Twitter-Model)|
 |`express_basic`|6|[Link al repo](https://github.com/JohnNadja/Express-Basic)|
-|`express_api`|7|[Link al repo](https://github.com/LaunchX-InnovaccionVirtual/MissionNodeJS)|
+|`express_api`|7|[Link al repo](https://github.com/JohnNadja/Express-Api)|
